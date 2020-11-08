@@ -1,82 +1,82 @@
 const navConfig = {
-  'Apollo Basics': {
-    category: 'Core',
-    url: 'https://www.apollographql.com/docs',
+  'Tiếp cận nghiên cứu': {
+    category: 'Nền tảng nghiên cứu',
+    url: 'https://home-sisi.netlify.app/docs/',
     description:
-      'Learn about each part of the Apollo platform and how they all work together.',
+      'Cung cấp một cái nhìn tổng quan về các vấn đề chính trong nghiên cứu và đánh giá. Đây có lẽ là nơi tốt nhất để bạn bắt đầu tìm hiểu về nghiên cứu.',
     omitLandingPage: true
   },
-  'Apollo Client (React)': {
-    category: 'Apollo Client',
+  'Phương pháp nghiên cứu': {
+    category: 'Trường phái nghiên cứu',
     shortName: 'React / JS',
-    url: 'https://www.apollographql.com/docs/react',
+    url: 'https://sisis-methods.netlify.app/docs/react/',
     description:
-      "Manage the entirety of your React app's state and seamlessly execute GraphQL operations."
+      "Giúp bạn hiểu sâu về bản chất nghiên cứu, gợi ý các phương pháp nghiên cứu (định tính, định lượng, hỗn hợp) phù hợp."
   },
-  'Apollo Client (iOS)': {
-    category: 'Apollo Client',
+  'Định lượng (Quantitative)': {
+    category: 'Trường phái nghiên cứu',
     shortName: 'iOS',
-    url: 'https://www.apollographql.com/docs/ios',
+    url: 'https://sisi-paradigm.netlify.app/docs/ios/',
     description:
-      "Manage the entirety of your iOS app's state and seamlessly execute GraphQL operations."
+      "Xem xét hiện tượng theo cách có thể đo lường được trên các đối tượng nghiên cứu, thường được áp dụng đối với các hiện tượng có thể được diễn tả/quy đổi bằng số"
   },
-  'Apollo Client (Android)': {
-    category: 'Apollo Client',
+  'Định tính & hỗn hợp': {
+    category: 'Trường phái nghiên cứu',
     shortName: 'Android',
-    url: 'https://www.apollographql.com/docs/android',
+    url: '/',
     description:
-      "Manage the entirety of your Android app's state and seamlessly execute GraphQL operations."
+      "Hướng tiếp cận nhằm thăm dò, mô tả và giải thích dựa vào các phương tiện khảo sát kinh nghiệm, nhận thức, động cơ thúc đẩy, dự định, hành vi, thái độ. Chúng có thể hướng chúng ta đến việc xây dựng giả thuyết và các giải thích."
   },
-  'Apollo Server': {
-    category: 'Backend',
-    url: 'https://www.apollographql.com/docs/apollo-server',
+  'SPSS': {
+    category: 'Phương pháp phân tích',
+    url: 'https://sisi-spss.netlify.app/docs/federation/',
     description:
-      'Configure a production-ready GraphQL server to fetch and combine data from multiple sources.'
+      'Giúp bạn lựa chọn các phương thức thống kê phù hợp để phân tích dữ liệu, cũng như diễn giải và viết kết quả.'
   },
-  'Apollo Federation': {
-    category: 'Backend',
-    url: 'https://www.apollographql.com/docs/federation',
-    description: 'Implement a single data graph across multiple services.'
+  'Mô hình SEM': {
+    category: 'Phương pháp phân tích',
+    url: 'https://sisi-sem.netlify.app/docs/apollo-server/',
+    description: 'Tổng quan mô hình SEM (PLS, Warp, Composite-based), giúp bạn lựa chọn mô hình SEM phù hợp.'
   },
-  'Apollo Studio': {
-    category: 'Tools',
-    url: 'https://www.apollographql.com/docs/graph-manager',
+  'STATA': {
+    category: 'STATA',
+    url: 'https://sisi-stata.netlify.app/docs/studio/',
     description:
-      'Build your graph with your team, evolve it safely, and keep it running smoothly.'
+      'STATA đang được sử dụng rất nhiều vào phân tích dữ liệu (chuỗi thời gian, dữ liệu mảng, các mô hình kinh tế lượng tài chính)'
   }
 };
 
 const footerNavConfig = {
   Blog: {
-    href: 'https://blog.apollographql.com/',
+    href: '/',
     target: '_blank',
     rel: 'noopener noreferrer'
   },
   Contribute: {
-    href: 'https://www.apollographql.com/docs/community/'
+    href: '/'
   },
   'GraphQL Summit': {
-    href: 'https://summit.graphql.com/',
+    href: '/',
     target: '_blank',
     rel: 'noopener noreferrer'
   }
 };
 
 module.exports = {
-  siteName: 'Apollo Docs',
-  pageTitle: 'Apollo GraphQL Docs',
-  menuTitle: 'Apollo Platform',
-  gaTrackingId: 'UA-74643563-13',
-  algoliaApiKey: '768e823959d35bbd51e4b2439be13fb7',
-  algoliaIndexName: 'apollodata',
-  baseUrl: 'https://www.apollographql.com',
-  twitterHandle: 'apollographql',
-  spectrumHandle: 'apollo',
-  youtubeUrl: 'https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw',
-  logoLink: 'https://www.apollographql.com/docs/',
+  siteName: 'Statswork.wiki',
+  pageTitle: 'A handbook for beginners in research | Sổ tay dành cho người mới bắt đầu nghiên cứu',
+  menuTitle: 'Research Gate Platform',
+  gaTrackingId: '',
+  algoliaApiKey: '',
+  algoliaIndexName: '',
+  baseUrl: '/',
+  twitterHandle: '',
+  spectrumHandle: '',
+  youtubeUrl: '/',
+  logoLink: '/',
   baseDir: 'docs',
   contentDir: 'source',
   navConfig,
   footerNavConfig,
-  ffWidgetId: '3131c43c-bfb5-44e6-9a72-b4094f7ec028'
+  ffWidgetId: ''
 };
